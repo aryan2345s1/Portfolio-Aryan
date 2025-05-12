@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <img src="My Image.png.jpg" alt="My photo" />
+      <h2>Hello, I'm a B.Tech CSE (AI/ML) student</h2>
+      <p>Passionate about building intelligent systems and web applications.</p>
+      <button onclick="contactMe()">Let's Connect</button>
+    </section>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a second-year B.Tech CSE (AI/ML) student, exploring the world of artificial intelligence and software development. I love building practical applications and solving real-world problems with code.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Air System Management</strong> – A system to manage airline operations.</li>
+      <li><strong>Database Management System</strong> – A mini DBMS for managing data securely.</li>
+      <li><strong>Amazon Clone</strong> – A responsive clone of the Amazon website.</li>
+      <li><strong>Portfolio Website</strong> – The site you're viewing now.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>HTML/CSS</li>
+      <li>MySQL</li>
+      <li>AI/ML (Basics)</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="Resume Aryan.pdf" download>Download My Resume</a>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <p>"A passionate student who learns quickly and builds quality projects." – Professor A</p>
+    <p>"Impressive work on the Amazon Clone and DBMS project!" – Senior Developer</p>
+  </section>
+
+  <section id="contact">
+   
+        <h2>Contact Me</h2>
+      
+        <p><strong>Email:</strong> <a href="mailto:aryansoni.@gmail.com">aryansoni.@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918817880108">+91 8817880108</a></p>
+      
+        <form onsubmit="return sendMessage()">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      
+  </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p>Contact: <a href="mailto:aryansoni.@gmail.com">aryansoni.@gmail.com</a></p>
+      </footer>
+    
+   
+
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
